@@ -1,0 +1,71 @@
+# =========================
+# Scala sbt Project .gitignore
+# =========================
+
+# **sbt Build Artifacts**
+target/
+lib_managed/
+src_managed/
+.worksheet/
+dist/
+
+# **sbt Eclipse Plugin**
+.project
+.classpath
+.settings/
+
+# **sbt IntelliJ Plugin**
+.idea/
+*.iml
+*.iws
+
+# **sbt Metals (VS Code)**
+.metals/
+.vscode/
+
+# **Log Files**
+*.log
+
+# **OS Specific Files**
+.DS_Store
+Thumbs.db
+
+# **Temporary Files**
+tmp/
+temp/
+*.tmp
+*.swp
+*~
+
+# **Coverage Reports**
+coverage/
+*.lcov
+
+# **Build Tools**
+build/
+
+# **Package Files**
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# **SBT Specific Files**
+project/target/
+project/project/
+
+# **Other Editors and IDEs**
+*.idea/
+*.sublime-project
+*.sublime-workspace
+
+# **Miscellaneous**
+*.bak
+*.backup
+*.orig
+*.rej
+
+# **Environment Variables**
+.env
+.env.local
